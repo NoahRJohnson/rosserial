@@ -2,6 +2,9 @@
 Changelog for package rosserial_arduino
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.0 (2015-04-23)
+------------------
+
 0.6.3 (2014-11-05)
 ------------------
 * Fix for Arduino upload path issue.

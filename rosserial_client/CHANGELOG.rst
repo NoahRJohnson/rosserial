@@ -2,6 +2,15 @@
 Changelog for package rosserial_client
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.7.0 (2015-04-23)
+------------------
+* Initial release for Jade.
+* Make message generating error message more verbose.
+* Fix initializer for fixed-length arrays.
+* Generate constructors for messages.
+* Switch to stdint integers. This allows the client to run on 64-bit systems.
+* Contributors: Mickaël, Mike Purvis, Mitchell Wills, chuck-h
+
 0.6.3 (2014-11-05)
 ------------------
 * Move avr serialization logic to Msg class, add gtest to exercise it.
