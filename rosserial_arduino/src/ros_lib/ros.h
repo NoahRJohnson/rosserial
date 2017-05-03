@@ -130,7 +130,7 @@ namespace ros
 
 #elif defined(__AVR_ATmega328P__)
 
-  typedef NodeHandle_<ArduinoHardware, 2, 3, 150, 150, FlashReadOutBuffer_> NodeHandle;
+  typedef NodeHandle_<ArduinoHardware, 2, 3, 280, 280, FlashReadOutBuffer_> NodeHandle;
 
 #else
 
