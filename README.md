@@ -1,6 +1,16 @@
 ## rosserial
+### Noah's Changes
+This repository is pretty much exactly the same as the one I forked, I only made one small change. In rosserial_arduino/src/ros_lib/ros.h, I changed
+```python
+const prog_char *lp_p = (const prog_char *) what ;
+```
+into
+```python
+const char *lp_p = (const char *) what ;
+```
+to work with Arduino 1.8.2.
 
-This repo is ported from https://kforge.ros.org/rosserial/hg. It has been catkinized and updated for ROS Groovy and onward.
+Then 'rosrun rosserial_arduino make_libraries.py /path/to/sketchbook/libraries/' re-builds the ros_lib Arduino library with the fixed ros.h header.
 
 ### Changes for Indigo
 
